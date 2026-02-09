@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnGitHub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String githubUrl = "https://github.com/D310820/MiAppAndroid.git";
+                String githubUrl = "https://github.com/D310820/MiAppAndroid";
                 // Crea el intent para abrir el navegador
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
 
